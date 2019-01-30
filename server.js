@@ -1,5 +1,5 @@
 const express=require('express');
-const port=process.env.port||3000;
+const port=process.env.PORT||3000;
 const hbs=require('hbs');
 hbs.registerPartials(__dirname+'/views/partials');
 hbs.registerHelper('getyear',()=>{
